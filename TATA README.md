@@ -46,32 +46,6 @@ A waterfall chart was used to identify the regions with high product demand to g
 
 
 
-# 2. PWC SWITZERLAND
-**Task 1:**
-
-
-**Task 2:**
-**Project Overview:**
-
-
-**Project Goals:**
-Create a dashboard in Power BI for Claire that reflects all relevant Key Performance Indicators (KPIs) and metrics in the dataset. Get creative! 
-
-KPIs include:
-
-- Overall customer satisfaction
-- Overall calls answered/abandoned
-- Calls by time
-- Average speed of answer
-- Agent’s performance quadrant -> average handle time (talk duration) vs calls answered
-![image](https://github.com/MyLittleToy/Power-BI-Projects/assets/139712656/04c153b1-f9b8-46a5-83db-862c6ff140a1)
-
-
-**Dataset:**
-[01 Call-Center-Dataset.xlsx](https://github.com/MyLittleToy/Power-BI-Projects/files/12642988/01.Call-Center-Dataset.xlsx)
-
-
-
 
 
 
