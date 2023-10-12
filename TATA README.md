@@ -50,36 +50,3 @@ A waterfall chart was used to identify the regions with high product demand to g
 
 
 
-
-**Task 3:**
-
-**Project Overview:**
-
-
-**Project Goals:**
-- Customers who left within the last month
-- Services each customer has signed up for phone, multiple lines, internet, online security, online backup, device protection, tech support, and streaming TV and movies
-- Customer account information: how long as a customer, contract, payment method, paperless billing, monthly charges, total charges and number of tickets opened in the       categories administrative and technical
-- Demographic info about customers – gender, age range, and if they have partners and dependents
-- 
-[02 Churn[PhoneNow inputs (3).pdf](https://github.com/MyLittleToy/Power-BI-Projects/files/12642964/PhoneNow.inputs.3.pdf)
-
-**Data Cleanup Phase:**
-I utilised Power Query to conduct the following tasks:
-- Data type validation
-- Checking for 'nulls' within the data set.
-  - Within the dataset I identified 11 records in the 'TotalCharges' column that had null values.  I utilised the following formula to amend these values to those within       the TotalCharges column.  My reasoning being that these 11 customers were new customers and did not have any other monthly charges.
-    = Table.ReplaceValue(#"Filtered Rows",null,each [MonthlyCharges],Replacer.ReplaceValue,{"TotalCharges"})
-
-**Visual Creation Phase:**
-Per the request, I created separate tabs for each task's visualisations, and utilised Power BI to create my visuals for the data.
-
-**Presentation and Analysis Phase:**
-
-
-**Dataset:**
-(https://github.com/MyLittleToy/Power-BI-Projects/files/12642963/02.Churn-Dataset.xlsx)
-
-https://cdn.theforage.com/vinternships/companyassets/4sLyCPgmsy8DA6Dh3/PhoneNow%20inputs%20(3).pdf
-
-
