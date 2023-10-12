@@ -1,8 +1,12 @@
-# 2. PWC SWITZERLAND
+# PWC SWITZERLAND
 **Task 1:**
 
 
 **Task 2:**
+
+**Dataset:**
+[01 Call-Center-Dataset.xlsx](https://github.com/MyLittleToy/Power-BI-Projects/files/12642988/01.Call-Center-Dataset.xlsx)
+
 **Project Overview:**
 
 
@@ -10,7 +14,6 @@
 Create a dashboard in Power BI for Claire that reflects all relevant Key Performance Indicators (KPIs) and metrics in the dataset. Get creative! 
 
 KPIs include:
-
 - Overall customer satisfaction
 - Overall calls answered/abandoned
 - Calls by time
@@ -19,17 +22,13 @@ KPIs include:
 ![image](https://github.com/MyLittleToy/Power-BI-Projects/assets/139712656/04c153b1-f9b8-46a5-83db-862c6ff140a1)
 
 
-**Dataset:**
-[01 Call-Center-Dataset.xlsx](https://github.com/MyLittleToy/Power-BI-Projects/files/12642988/01.Call-Center-Dataset.xlsx)
-
-
-
-
-
-
-
 
 **Task 3:**
+
+**Dataset:**
+(https://github.com/MyLittleToy/Power-BI-Projects/files/12642963/02.Churn-Dataset.xlsx)
+
+[02 Churn[PhoneNow inputs (3).pdf](https://github.com/MyLittleToy/Power-BI-Projects/files/12642964/PhoneNow.inputs.3.pdf)
 
 **Project Overview:**
 
@@ -40,13 +39,13 @@ KPIs include:
 - Customer account information: how long as a customer, contract, payment method, paperless billing, monthly charges, total charges and number of tickets opened in the       categories administrative and technical
 - Demographic info about customers – gender, age range, and if they have partners and dependents
 - 
-[02 Churn[PhoneNow inputs (3).pdf](https://github.com/MyLittleToy/Power-BI-Projects/files/12642964/PhoneNow.inputs.3.pdf)
+
 
 **Data Cleanup Phase:**
 I utilised Power Query to conduct the following tasks:
 - Data type validation
 - Checking for 'nulls' within the data set.
-  - Within the dataset I identified 11 records in the 'TotalCharges' column that had null values.  I utilised the following formula to amend these values to those within       the TotalCharges column.  My reasoning being that these 11 customers were new customers and did not have any other monthly charges.
+  - Within the dataset I identified 11 records in the 'TotalCharges' column that had null values.  I utilised the following formula to amend these values to those within the TotalCharges column.  My reasoning being that these 11 customers were new customers and did not have any other monthly charges.
     = Table.ReplaceValue(#"Filtered Rows",null,each [MonthlyCharges],Replacer.ReplaceValue,{"TotalCharges"})
 
 **Visual Creation Phase:**
@@ -55,8 +54,60 @@ Per the request, I created separate tabs for each task's visualisations, and uti
 **Presentation and Analysis Phase:**
 
 
-**Dataset:**
-(https://github.com/MyLittleToy/Power-BI-Projects/files/12642963/02.Churn-Dataset.xlsx)
 
-https://cdn.theforage.com/vinternships/companyassets/4sLyCPgmsy8DA6Dh3/PhoneNow%20inputs%20(3).pdf
+
+**Task 4:**
+
+**Project Overview:**
+Human Resources at our telecom client is highly into diversity and inclusion. They’ve been working hard to improve gender balance at the executive management level, but they’re not seeing any progress. They’re reaching out to us for help.
+
+At PwC Switzerland we are often approached by clients seeking support with diversity and inclusion. Companies need a workforce of diverse talents and backgrounds to succeed in an increasingly complex and heterogeneous world. To us, diversity and inclusion are business imperatives, not just nice-to-haves. We aim for all of our teams to feel welcome and appreciated. But actually achieving this and unlocking its potential involves a whole set of practical challenges.
+
+This is particularly important as PWC Switzerland often provide support to clients on how to enhance their employee's experience by:
+
+Making an organisation more inclusive and diverse;
+Attracting more women to their organisation;
+Retaining & developing diverse talent;
+Identifying and mitigating systemic bias (for example gender bias or sexual discrimination) in their policies and practices;
+Ensuring the employee lifecycle is fair and robust from application to exit;
+Measuring and applying fair pay practices.
+
+**Project Goals:**
+- Define relevant KPIs in hiring, promotion, performance and turnover, and create a visualisation
+- Write what you think some of the root causes of their slow progress in improving gender balance at the executive management level might be
+
+**Data Cleanup Phase:**
+I utilised Power Query to conduct the following tasks:
+
+- Data type validation
+- Checking for 'nulls' within the data set.
+- Removal of columns that would not be used for my analysis
+
+
+**Visual Creation Phase:**
+
+  # Key Performance Indicators:
+
+  1. Number of employees, leavers and hires by gender
+  2. Percentage of promotions by gender and year (FY20 & FY21)
+  3. Age distribution
+  4. Gender distribution
+  5. Nationality distribution
+  6. Job-level distribution
+  7. Time-type distribution
+  8. Average Performance of gender, leavers
+  9. Performance Rate distribution
+  10. Average Performance Rate by Positions, Age, Region
+  11. Comparison performance between leaver and non-leaver by department
+  12. Indicators of the gender balance of new hire FY20, Promotion FY21, Turnover rate
+  13. Executive gender balance
+  14. Average Time at the Job level
+  15. Hiring trend and hiring distribution by nationality
+  16. Promotion and Turnover rate FY 21
+
+
+**Presentation and Analysis Phase:**
+
+
+
 
