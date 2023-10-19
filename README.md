@@ -7,3 +7,4 @@ Dataset:
 Tools:
 
 Final Dashboard:
+[WMCrime_PowerBiProject.pdf](https://github.com/MyLittleToy/Power-BI-Projects/files/13041588/WMCrime_PowerBiProject.pdf)
